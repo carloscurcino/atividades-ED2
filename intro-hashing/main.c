@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-pegaIndice(int chave, int keys)
+int pegaIndice(int chave, int keys)
 {
     return chave % (keys * 2);
 }
